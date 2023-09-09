@@ -1,0 +1,33 @@
+
+#suggestedTopics {
+  background-color: white;
+  display: flex;
+  border: none;
+  width: 100%;
+  top: 80px;
+  position: sticky;
+}
+
+#suggestedTopics ul {
+  padding: 0;
+}
+
+#suggestedTopics ul li {
+  list-style: none;
+  margin-left: 47px;
+}
+
+/* mouse hover link */
+#suggestedTopics a {
+  color: #5a5959;
+  background: #e8e9e9;
+  border-radius: 8px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+#suggestedTopics a:hover {
+  background: #d8d8d8;
+  cursor: pointer;
+}
+ 

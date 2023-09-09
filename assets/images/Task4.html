@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1:5500/task4/task4.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Task4_files/normalize.css">
+  <!-- style sheet linking -->
+  <link rel="stylesheet" href="./Task4_files/task4444.css">
+  <title>Task4</title>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
+  <main class="main-wrapper">
+    <h1>Connect With Us</h1>
+    <p>We would love to respond to your queries and help you succeed.</p>
+    <p>Feel free to get in touch with us.</p>
+    <section class="flex-wrapper">
+      <div class="content-layout">
+        <h3>Send your request</h3>
+
+        <div class="inside-text">
+          <div>
+            <label for="name">Name</label>
+            <div><input type="text" id="name" value="John Amendo"></div>
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <div><input type="tel" id="phone" value="+1 412 520 3231"></div>
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <div><input type="email" id="email" value="johnamendogm@gmail.com"></div>
+          </div>
+
+          <div>
+            <label for="subject">Subject</label>
+            <div><input type="text" id="subject" value="Product Demo"></div>
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <div><textarea name="message" id="message" placeholder="Your Message" cols="67" rows="5"></textarea>
+            </div>
+          </div>
+
+        </div>
+
+        <div><button type="button">SEND</button></div>
+      </div>
+
+      <div class="aside-layout">
+        <h3>Reach Us</h3>
+        <div>
+          <span>Email:</span>
+          <span>contactus@example.com</span>
+        </div>
+        <div>
+          <span>Phone:</span>
+          <span>+1012 346 8700</span>
+        </div>
+        <div>
+          <span class="address">Address:</span>
+          <span>#20, Ground floor, 7th cross Some layout, Some Road, Koramangala, Bengaluru 560001</span>
+        </div>
+      </div>
+    </section>
+  </main>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
